@@ -68,9 +68,9 @@ All AI outputs are processed server-side, **stored in the database**, and then r
 
 ### 🔐 Authentication & Landing & 👤  Plans
 <p align="center">
-  <img src="./screenshots/landingpage.png" width="32%">
-  <img src="./screenshots/login.png" width="32%">
-  <img src="./screenshots/plans.png" width="32%">
+  <img src="./screenshots/landingpage.png" width="40%">
+  <img src="./screenshots/login.png" width="20%">
+  <img src="./screenshots/plans.png" width="40%">
 </p>
 
 ### 🧠 AI Content & Tools
