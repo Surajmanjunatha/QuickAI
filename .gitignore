@@ -1,2 +1,7 @@
-node_modules
-.env
+# Node dependencies
+client/node_modules/
+server/node_modules/
+
+# Environment files
+client/.env
+server/.env
