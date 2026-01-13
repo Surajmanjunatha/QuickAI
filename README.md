@@ -66,10 +66,11 @@ All AI outputs are processed server-side, **stored in the database**, and then r
 
 ## 🖼️ Project Screenshots
 
-### 🔐 Authentication & Landing
+### 🔐 Authentication & Landing & 👤  Plans
 <p align="center">
-  <img src="./screenshots/landingpage.png" width="45%">
-  <img src="./screenshots/login.png" width="45%">
+  <img src="./screenshots/landingpage.png" width="32%">
+  <img src="./screenshots/login.png" width="32%">
+  <img src="./screenshots/plans.png" width="32%">
 </p>
 
 ### 🧠 AI Content & Tools
@@ -78,26 +79,10 @@ All AI outputs are processed server-side, **stored in the database**, and then r
   <img src="./screenshots/tools.png" width="45%">
 </p>
 
-### 🖼️ Image Processing
+### 🖼️ Image generation & 📄 Resume Analyzer (ATS)
 <p align="center">
   <img src="./screenshots/imageGeneration.png" width="45%">
-</p>
-
-### 📄 Resume Analyzer (ATS)
-<p align="center">
-  <img src="./screenshots/resumeReview.png" width="45%">
-</p>
-
-### 🌐 Community & Dashboard
-<p align="center">
-  <img src="./screenshots/community.png" width="45%">
-  <img src="./screenshots/Dashboard.png" width="45%">
-</p>
-
-### 👤 User Profile & Plans
-<p align="center">
-  <img src="./screenshots/userProfile.png" width="45%">
-  <img src="./screenshots/plans.png" width="45%">
+   <img src="./screenshots/resumeReview.png" width="45%">
 </p>
 
 ---
