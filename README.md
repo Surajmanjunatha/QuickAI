@@ -1,6 +1,7 @@
-# 🚀 QuickAI – AI SaaS Platform
+# 🚀 QuickAI – AI-Powered SaaS Platform
 
-QuickAI is a **production-ready AI SaaS application** that combines content generation, image processing, and resume analysis into a single scalable platform.
+QuickAI is a **production-ready AI SaaS application** that brings together content generation, image processing, and resume analysis into a single scalable platform.  
+It is built with a **real-world product mindset**, focusing on clean architecture, scalability, and secure AI integration.
 
 🌐 **Live Demo:** https://quick-ai-psi-gray.vercel.app/
 
@@ -8,42 +9,32 @@ QuickAI is a **production-ready AI SaaS application** that combines content gene
 
 ## 🧠 What is QuickAI?
 
-QuickAI helps users:
-- Generate AI-powered **articles & blog titles**
-- Remove **image backgrounds & objects**
+QuickAI enables users to:
+- Generate **AI-powered articles & blog titles**
+- Perform **image background & object removal**
 - Analyze resumes using a **custom ATS scoring system**
-- Manage content through a **user dashboard**
-- Access features based on **subscription plans**
+- Explore a **community feed** of AI-generated content
+- Manage usage, subscriptions, and history via a dashboard
 
-Built independently using the **PERN stack**, this project demonstrates **real-world product engineering and system design**.
+This project is built end-to-end as a **real SaaS product**, not a clone.
 
 ---
 
 ## 🧩 System Architecture
 
-![QuickAI Architecture](./assets/architecture.png)
+<p align="center">
+  <img src="./screenshots/QuickAISystemArchitecture.png" alt="QuickAI System Architecture" width="900">
+</p>
 
-**Flow:**
-1. Users interact via React frontend
-2. Requests go through secured Express APIs
-3. Auth & subscriptions handled by Clerk
-4. AI services process requests
-5. Data stored in serverless PostgreSQL
-6. Media optimized via Cloudinary
+### Architecture Overview
+- **Frontend:** React + Vite handles UI and user interaction
+- **Backend:** Express APIs manage business logic and orchestration
+- **Service Layer:** Abstracts multiple AI providers
+- **Database:** Serverless PostgreSQL (Neon) stores users, usage, and results
+- **Auth & Billing:** Clerk handles authentication and subscriptions
+- **Media:** Cloudinary optimizes and serves images
 
----
-
-## 🖼️ Project Screenshots
-
-> *(Add screenshots inside `/screenshots` folder)*
-
-| Feature | Image |
-|------|------|
-| Landing Page | `screenshots/landing.png` |
-| AI Content Generation | `screenshots/article.png` |
-| Image Tools | `screenshots/image-tools.png` |
-| Resume Analyzer | `screenshots/resume.png` |
-| Dashboard | `screenshots/dashboard.png` |
+All AI outputs are processed server-side, **stored in the database**, and then returned to the frontend for consistency and scalability.
 
 ---
 
@@ -52,11 +43,11 @@ Built independently using the **PERN stack**, this project demonstrates **real-w
 ### Frontend
 ![React](https://img.shields.io/badge/React-18-blue)
 ![Vite](https://img.shields.io/badge/Vite-fast-purple)
-![Tailwind](https://img.shields.io/badge/Tailwind-CSS-38bdf8)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-38bdf8)
 
 ### Backend
-![Node](https://img.shields.io/badge/Node.js-green)
-![Express](https://img.shields.io/badge/Express.js-black)
+![Node.js](https://img.shields.io/badge/Node.js-green)
+![Express.js](https://img.shields.io/badge/Express.js-black)
 
 ### Database
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-blue)
@@ -73,12 +64,34 @@ Built independently using the **PERN stack**, this project demonstrates **real-w
 
 ---
 
+## 🖼️ Project Screenshots
+
+### 🔐 Authentication & Landing 
+<p align="center">
+  <img src="./screenshots/landingpage.png" width="45%">
+  <img src="./screenshots/login.png" width="45%">
+</p>
+
+### 🧠 AI Content & Tools
+<p align="center">
+  <img src="./screenshots/articleGeneration.png" width="45%">
+  <img src="./screenshots/tools.png" width="45%">
+</p>
+
+### 🖼️ Image generation & 📄 Resume Analyzer (ATS)
+<p align="center">
+  <img src="./screenshots/imageGeneration.png" width="45%">
+   <img src="./screenshots/resumeReview.png" width="45%">
+</p>
+
+---
+
 ## ⚙️ Key Engineering Highlights
 
 - Multi-AI provider integration with clean abstraction
-- Secure authentication & subscription handling
-- Usage-based access control to manage costs
-- Stateless backend & serverless database
+- Secure authentication and subscription-based access
+- Usage-based limits to control AI costs
+- Stateless backend with serverless database
 - Production-ready SaaS architecture
 
 ---
@@ -91,4 +104,4 @@ Full-Stack Developer | AI & SaaS Enthusiast
 
 ---
 
-⭐ *This project demonstrates end-to-end ownership, scalable system design, and real-world AI integration.*
+⭐ *QuickAI demonstrates real-world system design, scalable architecture, and end-to-end product ownership.*
