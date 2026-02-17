@@ -6,7 +6,10 @@
   "type": "module",
   "scripts": {
     "server": "nodemon server.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "format": "prettier --write ."
   },
   "keywords": [],
   "author": "",
@@ -27,6 +30,8 @@
     "pdf-parse-fork": "^1.2.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.11"
+    "eslint": "^10.0.0",
+    "nodemon": "^3.1.11",
+    "prettier": "^3.8.1"
   }
 }
