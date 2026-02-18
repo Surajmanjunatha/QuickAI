@@ -33,6 +33,6 @@ const App = () => {
   );
 };
 
-let suraj = 'unused variable here';
+ //let suraj = 'unused variable here';
 
 export default App;
