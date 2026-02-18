@@ -1,5 +1,5 @@
-import React from "react";
-import { assets } from "../assets/assets";
+import React from 'react';
+import { assets } from '../assets/assets';
 
 const Footer = () => {
   return (
@@ -34,16 +34,11 @@ const Footer = () => {
       >
         {/* Brand Section */}
         <div className="max-w-md">
-          <img
-            src={assets.logo}
-            alt="QuickAI logo"
-            className="h-11 mb-6"
-          />
+          <img src={assets.logo} alt="QuickAI logo" className="h-11 mb-6" />
 
           <p className="text-sm leading-7 text-gray-600">
-            QuickAI is an AI-powered platform designed to boost productivity by
-            providing smart tools for content creation, analysis, and
-            automation — faster, simpler, and smarter.
+            QuickAI is an AI-powered platform designed to boost productivity by providing smart
+            tools for content creation, analysis, and automation — faster, simpler, and smarter.
           </p>
         </div>
 
@@ -61,14 +56,12 @@ const Footer = () => {
         >
           {/* Company Links */}
           <div>
-            <h2 className="font-semibold mb-5 text-gray-900">
-              QuickAI
-            </h2>
+            <h2 className="font-semibold mb-5 text-gray-900">QuickAI</h2>
             <ul className="space-y-3 text-sm">
-              {["Home", "About Us", "Features", "Contact"].map((item) => (
+              {['Home', 'About Us', 'Features', 'Contact'].map((item) => (
                 <li key={item}>
                   <a
-                    href={`/${item.toLowerCase().replace(" ", "")}`}
+                    href={`/${item.toLowerCase().replace(' ', '')}`}
                     className="
                       text-gray-600
                       hover:text-indigo-600
@@ -87,12 +80,9 @@ const Footer = () => {
 
           {/* Newsletter */}
           <div className="max-w-sm w-full">
-            <h2 className="font-semibold mb-5 text-gray-900">
-              Subscribe to our newsletter
-            </h2>
+            <h2 className="font-semibold mb-5 text-gray-900">Subscribe to our newsletter</h2>
             <p className="text-sm text-gray-600 leading-6">
-              Get AI tips, product updates, and exclusive features delivered
-              straight to your inbox.
+              Get AI tips, product updates, and exclusive features delivered straight to your inbox.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 pt-5">
@@ -136,9 +126,8 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <p className="pt-6 text-center text-xs sm:text-sm text-gray-500">
-        © {new Date().getFullYear()}{" "}
-        <span className="font-semibold text-gray-900">QuickAI</span>. All Rights
-        Reserved.
+        © {new Date().getFullYear()} <span className="font-semibold text-gray-900">QuickAI</span>.
+        All Rights Reserved.
       </p>
     </footer>
   );

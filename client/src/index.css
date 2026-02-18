@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Outfit:wght@100..900&family=Petrona:ital,wght@0,100..900;1,100..900&display=swap');
-@import "tailwindcss";
+@import 'tailwindcss';
 
-*{
-    font-family: "Outfit", sans-serif;
+* {
+  font-family: 'Outfit', sans-serif;
 }
 
-@theme{
-  --color-primary: #5044E5;
+@theme {
+  --color-primary: #5044e5;
 }
 
-.reset-tw, .reset-tw *{
+.reset-tw,
+.reset-tw * {
   all: revert !important;
 }
 
-.cl-drawerRoot{
+.cl-drawerRoot {
   z-index: 10;
 }
